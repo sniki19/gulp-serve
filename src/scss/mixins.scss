@@ -1,0 +1,8 @@
+@mixin clear-list {
+    list-style: none;
+    color: yellowgreen;
+}
+
+ul {
+    @include clear-list();
+}
